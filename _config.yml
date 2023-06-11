@@ -1,10 +1,19 @@
-remote_theme: pages-themes/minimal@v0.2.0
-plugins:
-- jekyll-remote-theme
+# Site Build Settings
 
-url: https://tomcoward.me
+# jekyll-paginate configuration
+paginate:            5
 
-locale : "en-GB"
-title: "Tom Coward"
-name: "Tom Coward"
-description: "Software Engineer based in Liverpool, UK"
+# Build settings
+markdown:            kramdown
+highlighter:         rouge
+permalink:           /:title
+plugins:             [jekyll-paginate, jekyll-sitemap, jekyll-feed, jekyll-seo-tag]
+
+# Customise atom feed settings (this is where Jekyll-Feed gets configuration information)
+title:		           "Tom Coward"
+description:	       "software engineer based in Liverpool, UK"
+author:              "Tom Coward"
+
+# RSS 2.0 can be used instead of Atom by uncommenting following two lines
+#feed:
+#  path: rss-feed.xml
