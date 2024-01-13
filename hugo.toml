@@ -1,0 +1,8 @@
+baseURL = 'https://tomcoward.me/'
+languageCode = 'en-gb'
+title = 'Tom Coward'
+theme = 'nostyleplease'
+
+[params]
+  [params.theme_config]
+    date_format = "01-02-2006"

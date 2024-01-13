@@ -1,0 +1,16 @@
+[[entries]]
+title = "about me!"
+
+  [[entries.entries]]
+  title = "software engineer at the BBC"
+
+  [[entries.entries]]
+  title = "based in Manchester, UK"
+
+  [[entries.entries]]
+  title = "@tom-coward on GitHub"
+  url = "https://github.com/tom-coward"
+
+  [[entries.entries]]
+  title = "/in/thomascoward on LinkedIn"
+  url = "https://linkedin.com/in/thomascoward"
